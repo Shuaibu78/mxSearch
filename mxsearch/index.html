@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https:ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- my stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/e-search.js"></script>
+    <title>MXSEARCH</title>
+</head>
+
+<body>
+    <!-- The header -->
+    <header>
+        <div class="App-header">
+            <h1> WELCOME TO MXSEARCH </h1>
+        </div>
+    </header>
+    <!-- the end of the header -->
+
+    <!-- the input field and button -->
+    <div class="container">
+        <div class="row">
+            <div class="col-10 mx-auto col-md-8 mt-5 text-center">
+                <form class="mt-4">
+                    <label htmlFor="search" class="text-capitalize">
+                        type name of places
+                    </label>
+                    <div class="input-group">
+                        <input type="text" name="search" id="search" placeholder="enter a place here"
+                            class="form-control search-game" />
+                    </div>
+                </form>
+            </div>
+        </div>
+            <ul class="list-group" id="result"></ul>
+    </div>
+
+    <div class="container">
+        <div class="row containerItems">
+            <div data-filter="beroy knightmobile html accion" data-search="house of assembly"
+                class="col-12 col-sm-6 col-md-4">
+                <div class="card card-lg my-2">
+                    <div class="card-img">
+                        <a>
+                            <img src="./image/house of assembly.jpg" class="card-img-top" style="height: 12rem;"
+                                alt="asembly">
+                        </a>
+                    </div>
+                    <div class="card-block">
+                        <h4 class="card-title">
+                            House of assembly
+                        </h4>
+                        <p class="card-text">Address of place here</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-primary text-capitalize">Details</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div data-search="city gate" class="col-12 col-sm-6 col-md-4">
+                <div class="card card-lg my-2">
+                    <div class="card-img">
+                        <a>
+                            <img src="./image/city gate.jpg" class="card-img-top" style="height: 12rem;"
+                                alt="city gate">
+                        </a>
+                    </div>
+                    <div class="card-block text-capitalize">
+                        <h4 class="card-title">
+                            City Gate
+                        </h4>
+                        <p class="card-text">Address of place</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-primary text-capitalize">Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <div data-search="federal university of tech minna" class="col-12 col-sm-6 col-md-4">
+                <div class="card card-lg my-2">
+                    <div class="card-img">
+                        <a>
+                            <img src="./image/futminna.jpg" class="card-img-top" style="height: 12rem;" alt="futminna">
+                        </a>
+                    </div>
+
+                    <div class="card-block">
+                        <h4 class="card-title">FUTMINNA
+                        </h4>
+                        <p class="card-text">Address of the places</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-primary text-capitalize">Details</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div data-search="college of education" class="col-12 col-sm-6 col-md-4">
+                <div class="card card-lg my-2">
+                    <div class="card-img">
+                        <a>
+                            <img src="./image/coe1.jpg" class="card-img-top" style="height: 12rem;" alt="coe"> </a>
+                    </div>
+                    <div class="card-block">
+                        <h4 class="card-title">College of education
+                        </h4>
+                        <p class="card-text">Address of the places</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-primary text-capitalize">Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <div data-search="obasajo complex" class="col-12 col-sm-6 col-md-4">
+                <div class="card card-lg my-2">
+                    <div class="card-img">
+                        <a>
+                            <img src="./image/complex.jpg" class="card-img-top" style="height: 12rem;" alt="complex">
+                        </a>
+                    </div>
+                    <div class="card-block">
+                        <h4 class="card-title">Obasanjo Complex
+                        </h4>
+                        <p class="card-text">Address of the places</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-primary text-capitalize">Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <div data-search="gsm village" class="col-12 col-sm-6 col-md-4">
+                <div class="card card-lg my-2">
+                    <div class="card-img">
+                        <a>
+                            <img src="./image/gsm vill.jpg" class="card-img-top" style="height: 12rem;" alt="GSM"> </a>
+                    </div>
+                    <div class="card-block">
+                        <h4 class="card-title">GSM Village
+                        </h4>
+                        <p class="card-text">Address of the places</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-primary text-capitalize">Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer class="footer">copyright by shuaib</footer>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+
+</html>

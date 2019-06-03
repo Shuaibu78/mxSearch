@@ -1,0 +1,32 @@
+[
+    {
+        "images": "./image/dogon.jpg",
+        "name": "Dogon Koli Hotel",
+        "location": "Minna, Niger - Western Bye-Pass Bes id e State Secretariat Tunga"
+    },
+    {
+        "images": "./image/david.jpg",
+        "name": "Davis Hotel Suites",
+        "location": "Minna, Niger - Plot 375, Dr Sheik Abdullai Road, Of Dr Babangida Aliyu Road"
+    },
+    {
+        "images": "./image/doko.jpg",
+        "name": "Doko international Hotel",
+        "location": "Minna, Niger - Minna City Gate, Suleja-Minna Road"
+    },
+    {
+        "images": "./image/haske.jpg",
+        "name": "Haske Hotel Limited",
+        "location": "Minna, Niger - Niteco Road Tunga"
+    },
+    {
+        "images": "./image/hydro.jpg",
+        "name": "Hydro Hotel Limited",
+        "location": "Minna, Niger - 1 Farm Centre Tunga"
+    },
+    {
+        "images": "./image/lemab.jpg",
+        "name": "Lemab Suites Limited",
+        "location": "Near Govt Secondary, Tunga Low Cost"
+    }
+]

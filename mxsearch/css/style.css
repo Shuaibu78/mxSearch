@@ -1,0 +1,42 @@
+body{
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 38vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.img-hh{
+	height: 14rem;
+}
+
+@media screen and (max-width: 768px) {
+  .App-header {
+    font-size: calc(8px + 2vmin);
+    color: white;
+  }
+}
+
+#result {
+  position: absolute;
+  width: 100%;
+  max-width: 870px;
+  cursor: pointer;
+  overflow-y: auto;
+  max-height: 400px;
+  box-sizing: border-box;
+  z-index: 1001;
+}
+
+.footer{
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+}
